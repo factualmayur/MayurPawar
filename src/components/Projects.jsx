@@ -46,7 +46,7 @@ function Projects() {
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-2 py-1 mr-2 text-sm font-medium text-purple-400 rounded bg-neutral-900 "
+                      className="px-2 py-1 mr-2 text-sm font-medium text-purple-400 rounded bg-neutral-900 text-pretty"
                     >
                       {tech}
                     </span>
@@ -58,7 +58,7 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="p-2 text-sm tracking-wide rounded shadow-lg bg-neutral-900 text-sky-300 hover:scale-110">
+                    <button className="p-2 text-sm tracking-wide rounded shadow-lg bg-neutral-900 text-sky-300 hover:scale-110 ">
                       Project Review
                       {/* font-semibold tracking-tight text-transparent text-[18px] bg-clip-text bg-gradient-to-r from-sky-400 to-white drop-shadow-lg bg-neutral-900 p-1 mt-3  hover:scale-110 */}
                     </button>

@@ -26,12 +26,12 @@ function Experience() {
                 initial={{opacity:0,x:100}}
                 transition={{duration:1}}
                 className='w-full max-w-xl lg:w-1/2'>
-                <h6 className='mb-2 font-serif'>
+                <h6 className='mb-2 font-serif text-pretty'>
                     {experience.role} - <span className='text-sm text-purple-300'>{experience.company}</span>
                 </h6>
                 <p className='mb-4 text-neutral-400'>{experience.description}</p>
                 {experience.technologies.map((tech,index)=>(
-                    <span className='px-2 py-2 mt-4 mr-2 font-medium text-purple-800 rounded bg-neutral-900' key={index}>{tech}</span>
+                    <span className='px-2 py-2 mt-4 mr-2 font-medium text-purple-800 rounded bg-neutral-900 text-pretty' key={index}>{tech}</span>
                 ))}
                 </motion.div>
                  </div>
