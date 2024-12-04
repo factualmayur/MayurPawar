@@ -2,6 +2,7 @@ import randPass from "../assets/projects/randomPassGenerator.png";
 import contactApp from "../assets/projects/contactApp.png";
 import diceGame from "../assets/projects/diceGame.png";
 import foodZone from "../assets/projects/foodZone.png";
+import TicTacToe from "../assets/projects/TicTacToe.png"
 
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a strong foundation in crafting robust and scalable web applications. 
@@ -78,6 +79,14 @@ export const PROJECTS = [
       "Explore Food Zone—your go-to platform to discover delicious dishes! Easily search for your favorite foods or browse by type, like breakfast, lunch, or dinner. Simple, quick, and tasty! 🍔",
     technologies: ["HTML", "CSS","Tailwind","React"],
   },
+  {
+    title: "Tic Tac Toe",
+    image: TicTacToe,
+    link:"https://tic-tac-toe-nu-sandy.vercel.app/",
+    description:
+      "An engaging Tic Tac Toe game featuring trendy Instagram audios and vibrant visuals. Enjoy a fun, immersive experience with modern aesthetics and catchy sounds that keep you hooked!",
+    technologies: ["HTML", "CSS","JavaScript"],
+  }
 ];
 
 export const CONTACT = {
