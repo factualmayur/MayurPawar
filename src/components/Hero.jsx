@@ -1,8 +1,7 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import Prof_Img from "../assets/projects/ProfilePIC.JPG";
+import Prof_Img from "../assets/projects/ProfilePic.jpg";
 import { motion } from "motion/react";
-import { delay } from "motion";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
