@@ -42,6 +42,7 @@ function Projects() {
                 >
                   <h6 className="mb-2 font-semibold ">{project.title}</h6>
                   <p className="mb-4 text-neutral-400">{project.description}</p>
+                  <section className="flex flex-wrap mb-[-10px]">
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
@@ -50,13 +51,14 @@ function Projects() {
                       {tech}
                     </span>
                   ))}
+                  </section>
                   <br />
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="p-2 mt-4 text-sm tracking-wide rounded shadow-lg bg-neutral-900 font-ti text-sky-300 hover:scale-110">
+                    <button className="p-2 text-sm tracking-wide rounded shadow-lg bg-neutral-900 text-sky-300 hover:scale-110">
                       Project Review
                       {/* font-semibold tracking-tight text-transparent text-[18px] bg-clip-text bg-gradient-to-r from-sky-400 to-white drop-shadow-lg bg-neutral-900 p-1 mt-3  hover:scale-110 */}
                     </button>
