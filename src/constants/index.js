@@ -47,35 +47,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Random Password Generator",
+    title: "Random Password Generator ",
     image: randPass,
     link:"https://passwordgenerator-chi-ecru.vercel.app/",
     description:
-      "A robust password generator application designed to create complex, secure passwords. Trusted by many popular websites and ideal for enhancing daily digital security🔑",
+      "A robust password generator application designed to create complex, secure passwords. Trusted by many popular websites and ideal for enhancing daily digital security",
     technologies: ["HTML", "CSS", "Tailwind","React"],
   },
   {
-    title: "Contact App",
+    title: "Contact App 📞",
     image: contactApp,
     link:"https://contact-app-kappa-puce.vercel.app/",
     description:
-      "The app lets users manage contacts by adding, updating, and deleting details. It’s a simple, user-friendly way to organize contact information📞",
+      "The app lets users manage contacts by adding, updating, and deleting details. It’s a simple, user-friendly way to organize contact information",
     technologies: ["HTML", "CSS",,"Tailwind", "React", "Firebase"],
   },
   {
-    title: "Dice Game",
+    title: "Dice Game 🎲",
     image: diceGame,
     link:"https://dice-game-vert-seven.vercel.app/",
     description:
-      "A simple dice game where you guess a number, roll the dice, and score points based on the rules. The score is displayed after each roll ! 🎲",
+      "A simple dice game where you guess a number, roll the dice, and score points based on the rules. The score is displayed after each roll ! ",
     technologies: ["HTML", "CSS",  "Tailwind","React",],
   },
   {
-    title: "Food Zone",
+    title: "Food Zone 🍜",
     image: foodZone,
     link:"https://food-zone-woad.vercel.app/",
     description:
-      "Explore Food Zone—your go-to platform to discover delicious dishes! Easily search for your favorite foods or browse by type, like breakfast, lunch, or dinner. Simple, quick, and tasty! 🍔🍜",
+      "Explore Food Zone—your go-to platform to discover delicious dishes! Easily search for your favorite foods or browse by type, like breakfast, lunch, or dinner. Simple, quick, and tasty! 🍔",
     technologies: ["HTML", "CSS","Tailwind","React"],
   },
 ];

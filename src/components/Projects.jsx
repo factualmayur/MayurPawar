@@ -42,11 +42,11 @@ function Projects() {
                 >
                   <h6 className="mb-2 font-semibold ">{project.title}</h6>
                   <p className="mb-4 text-neutral-400">{project.description}</p>
-                  <section className="flex flex-wrap mb-[-10px]">
+                  <section className="flex flex-wrap mb-[-10px] gap-3">
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-2 py-1 mr-2 text-sm font-medium text-purple-400 rounded bg-neutral-900 text-pretty"
+                      className="px-2 text-sm font-medium text-purple-400 rounded py-1mr-2 bg-neutral-900 text-pretty"
                     >
                       {tech}
                     </span>
