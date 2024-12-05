@@ -20,7 +20,7 @@ function ContactUs() {
       <motion.div 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.6 }}
         className="flex flex-wrap justify-center gap-6 mt-8 text-4xl"
       >
         <a 
