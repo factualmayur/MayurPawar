@@ -9,7 +9,7 @@ function Experience() {
       <motion.h1
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-100}}
-      transition={{duration:0.9}}
+      transition={{duration:0.8}}
       className='my-20 text-4xl text-center'> Experience</motion.h1>
       <div className='flex flex-col justify-around gap-6'>
         {EXPERIENCES.map((experience,index) =>(
@@ -17,14 +17,14 @@ function Experience() {
                 <motion.div 
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0,x:-100}}
-                transition={{duration:1}}
+                transition={{duration:0.6}}
                 className='w-full lg:w-1/2'>
                     <p className='mb-2 text-xl text-neutral-400'>{experience.year}</p>
                 </motion.div>
                 <motion.div
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0,x:100}}
-                transition={{duration:1}}
+                transition={{duration:0.6}}
                 className='w-full max-w-xl lg:w-1/2'>
                 <h6 className='mb-2 font-serif text-pretty'>
                     {experience.role} - <span className='text-sm text-purple-300'>{experience.company}</span>

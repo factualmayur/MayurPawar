@@ -25,7 +25,7 @@ function Projects() {
                   <motion.img
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 0.6 }}
                     src={project.image}
                     alt={project.title}
                     height={280}
@@ -37,7 +37,7 @@ function Projects() {
                 <motion.div
                   initial={{ opacity: 0, x: 100 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8 }}
+                  transition={{ duration: 0.6 }}
                   className="w-full max-w-xl lg:w-3/4"
                 >
                   <h6 className="mb-2 font-semibold ">{project.title}</h6>

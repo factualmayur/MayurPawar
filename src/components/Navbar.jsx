@@ -12,7 +12,7 @@ function Navbar() {
         <motion.div 
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6 }}
           className="flex items-center flex-shrink-0"
         >
           <GiTechnoHeart className="text-6xl" />
@@ -21,7 +21,7 @@ function Navbar() {
         <motion.div 
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6 }}
           className="flex items-center justify-center gap-6 ml-12"
         >
           <a href="https://www.linkedin.com/in/factualmayur/" target="_blank" rel="noopener noreferrer">

@@ -9,9 +9,9 @@ function About() {
     <>
       <div className="pb-4 border-b border-neutral-900">
         <motion.h1 
-        whileInView={{opacity:1,y:0}}
+        whileInView={{opacity:1,y:30}}
         initial={{opacity:0,y:-100}}
-        transition={{duration:0.5}}
+        transition={{duration:0.8}}
         className="my-20 text-4xl text-center ">
           About 
           <span className="m-2 text-neutral-400">  Me</span>
@@ -20,7 +20,7 @@ function About() {
         <motion.div 
   whileInView={{ opacity: 1, x: 0 }}
   initial={{ x: -100, opacity: 0 }}
-  transition={{ duration: 0.8 }}
+  transition={{ duration: 0.6 }}
   className="w-full lg:w-1/2 lg:p-8"
 >
   <div className="flex items-center justify-center">
@@ -37,7 +37,7 @@ function About() {
             <motion.div 
             whileInView={{opacity:1, x:0}}
             initial ={{x:100,opacity:1}}
-            transition={{duration:0.8}}
+            transition={{duration:0.6}}
             className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:justify-start">
                     <p className="max-w-xl py-6 my-2 tracking-tight text-pretty">{ABOUT_TEXT}</p>
