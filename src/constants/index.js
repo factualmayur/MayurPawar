@@ -4,6 +4,7 @@ import diceGame from "../assets/projects/diceGame.png";
 import foodZone from "../assets/projects/foodZone.png";
 import TicTacToe from "../assets/projects/TicTacToe.png"
 import BmiCalc from "../assets/projects/Bmi.png"
+import currencyConverter from "../assets/projects/currencyConverter.png"
 
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a strong foundation in crafting robust and scalable web applications. 
@@ -95,6 +96,14 @@ export const PROJECTS = [
     description:
       "The BMI calculator helps assess if your weight is healthy for your height. By entering your weight(in Kg) and height(in cm), it calculates your BMI and categorizes it as underweight, normal, overweight",
     technologies: ["HTML", "CSS","JavaScript"],
+  },
+  {
+    title: "Currency Conversion 🪙",
+    image: currencyConverter, 
+    link: "https://currency-conversion-one.vercel.app/",
+    description:
+      "This app allows you to easily convert currencies in real-time(updated at 6 Dec 2024). Simply enter the amount and select the source and target currencies. The conversion will be displayed instantly based on the latest exchange rates.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   }
 ];
 
