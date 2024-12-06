@@ -51,7 +51,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Random Password Generator ",
+    title: "Random Password Generator 🔑 ",
     image: randPass,
     link:"https://passwordgenerator-chi-ecru.vercel.app/",
     description:
