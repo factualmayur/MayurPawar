@@ -5,6 +5,7 @@ import foodZone from "../assets/projects/foodZone.png";
 import TicTacToe from "../assets/projects/TicTacToe.png"
 import BmiCalc from "../assets/projects/Bmi.png"
 import currencyConverter from "../assets/projects/currencyConverter.png"
+import GuesstheNumber from "../assets/projects/GuesstheNumber.png"
 
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a strong foundation in crafting robust and scalable web applications. 
@@ -104,7 +105,16 @@ export const PROJECTS = [
     description:
       "This app allows you to easily convert currencies in real-time(updated at 6 Dec 2024). Simply enter the amount and select the source and target currencies. The conversion will be displayed instantly based on the latest exchange rates.",
     technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: " Guess the Number 🎯",
+    image: GuesstheNumber,
+    link: "https://guess-the-number-zeta-blue.vercel.app/",
+    description:
+      "A fun and interactive number guessing game where players try to guess a random number between 1 and 100 within 10 attempts. The game provides instant feedback on whether the guess is too high or too low, and ends when the correct number is guessed or attempts are exhausted.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   }
+  
 ];
 
 export const CONTACT = {
